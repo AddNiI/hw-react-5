@@ -1,0 +1,25 @@
+.container {
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.nav {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.navLink {
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.navLink:hover { background: rgba(255,255,255,0.02); }
+
+.brand { font-weight: 700; }

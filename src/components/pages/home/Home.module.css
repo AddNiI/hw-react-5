@@ -1,0 +1,17 @@
+.section {
+  padding: 16px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.search {
+  width: 100%;
+  max-width: 540px;
+  background: var(--card);
+  padding: 10px;
+  border-radius: 8px;
+}

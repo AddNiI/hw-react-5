@@ -1,0 +1,12 @@
+.section {
+  padding: 16px;
+}
+.details {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 18px;
+}
+
+.poster { border-radius: 6px; width: 100%; height: auto; }
+
+.info { padding: 8px 12px; }
